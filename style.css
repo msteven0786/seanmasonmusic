@@ -1,0 +1,135 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+line-height: 1.6;
+background-color: #fdfdfd;
+color: #222;
+}
+
+/* --- Header & Navigation --- */
+header {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 1rem 2rem;
+background: #111;
+color: #fff;
+}
+
+header .logo {
+max-width: 150px;
+height: auto;
+margin-bottom: 0.5rem;
+border-radius: 50%;
+}
+
+nav ul {
+display: flex;
+gap: 1.5rem;
+list-style: none;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+nav a {
+text-decoration: none;
+font-weight: bold;
+color: #fff;
+transition: color 0.3s ease;
+}
+
+nav a:hover {
+color: #ff4c60;
+}
+
+/* --- Main Content --- */
+main {
+padding: 2rem;
+max-width: 900px;
+margin: 0 auto;
+}
+
+h1, h2 {
+margin-bottom: 1rem;
+color: #111;
+}
+
+section {
+margin-bottom: 2rem;
+}
+
+a {
+color: #ff4c60;
+text-decoration: none;
+}
+table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 1.5rem;
+font-size: 1rem;
+}
+
+caption {
+caption-side: top;
+text-align: left;
+font-weight: bold;
+margin-bottom: 0.5rem;
+color: #111;
+}
+a:hover {
+text-decoration: underline;
+}
+
+/* --- Footer --- */
+footer {
+background: #111;
+color: #fff;
+text-align: center;
+padding: 1rem;
+margin-top: 2rem;
+font-size: 0.9rem;
+}
+
+/* --- Responsive Design --- */
+@media (max-width: 600px) {
+nav ul {
+flex-direction: column;
+gap: 0.75rem;
+}
+
+main {
+padding: 1rem;
+}
+}
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+th {
+  background-color: #555;
+  color: white;
+}
+
+/* Responsive Images */
+.responsive-img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin-top: 20px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width
+
